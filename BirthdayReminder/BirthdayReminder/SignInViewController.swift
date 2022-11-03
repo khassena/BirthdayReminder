@@ -8,7 +8,7 @@
 import UIKit
 
 
-class ViewController: UIViewController {
+class SignInViewController: UIViewController {
     
     let colorBlue = UIColor(red: 174/255, green: 197/255, blue: 246/255, alpha: 1)
     
