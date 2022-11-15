@@ -72,23 +72,63 @@
 		FA7F508528DB1FB700749A60 /* BirthdayReminder */ = {
 			isa = PBXGroup;
 			children = (
-				FA7F508628DB1FB700749A60 /* AppDelegate.swift */,
-				FA7F508828DB1FB700749A60 /* SceneDelegate.swift */,
-				FA7F508A28DB1FB700749A60 /* SignInViewController.swift */,
-				FA50755E28E36E5800CE696A /* BottomLineTF.swift */,
-				FA50758829030C9E00CE696A /* UserStackView.swift */,
-				FA50755A28E1954B00CE696A /* BirthdayViewController.swift */,
-				FA50755C28E1C37E00CE696A /* NewPersonViewController.swift */,
-				FA50758A2906A7BD00CE696A /* Date+Settings.swift */,
-				FA50758E29071CAF00CE696A /* String+Grammar.swift */,
-				FA50759029071CC200CE696A /* Int+Grammar.swift */,
-				FA50758C2906D11100CE696A /* Birthday.swift */,
+				FA8AF0652923EE000086618E /* SupportFiles */,
+				FA8AF0692923EE530086618E /* Models */,
+				FA8AF0662923EE180086618E /* Controllers */,
+				FA8AF0672923EE3C0086618E /* Views */,
+				FA8AF0682923EE4A0086618E /* Extensions */,
 				FA7F508C28DB1FB700749A60 /* Main.storyboard */,
 				FA7F508F28DB1FB900749A60 /* Assets.xcassets */,
 				FA7F509128DB1FB900749A60 /* LaunchScreen.storyboard */,
 				FA7F509428DB1FB900749A60 /* Info.plist */,
 			);
 			path = BirthdayReminder;
+			sourceTree = "<group>";
+		};
+		FA8AF0652923EE000086618E /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F508628DB1FB700749A60 /* AppDelegate.swift */,
+				FA7F508828DB1FB700749A60 /* SceneDelegate.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		FA8AF0662923EE180086618E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F508A28DB1FB700749A60 /* SignInViewController.swift */,
+				FA50755A28E1954B00CE696A /* BirthdayViewController.swift */,
+				FA50755C28E1C37E00CE696A /* NewPersonViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA8AF0672923EE3C0086618E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA50755E28E36E5800CE696A /* BottomLineTF.swift */,
+				FA50758829030C9E00CE696A /* UserStackView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA8AF0682923EE4A0086618E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA50758A2906A7BD00CE696A /* Date+Settings.swift */,
+				FA50758E29071CAF00CE696A /* String+Grammar.swift */,
+				FA50759029071CC200CE696A /* Int+Grammar.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA8AF0692923EE530086618E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA50758C2906D11100CE696A /* Birthday.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
